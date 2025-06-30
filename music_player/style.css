@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.controls button {
+  margin: 10px;
+  font-size: 20px;
+  padding: 8px 16px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #555;
+}
+
+.progress-container,
+.volume-container {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="range"] {
+  width: 70%;
+}
+
+#playlist {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#playlist li {
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #444;
+}
+
+#playlist li:hover {
+  background: #333;
+}
